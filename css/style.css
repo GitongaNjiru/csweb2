@@ -469,3 +469,21 @@
 .footer .copyright a:hover {
     color: #FFFFFF;
 }
+.logo-slider {
+  height: 60px;
+  position: relative;
+}
+
+.logo-track {
+  width: max-content;
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
